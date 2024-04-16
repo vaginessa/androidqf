@@ -1,9 +1,6 @@
 name: Build and release
 
-on:
-  push:
-    tags:
-      - '*'
+on: ["push", "pull_request"]
 
 jobs:
   releases-matrix:
